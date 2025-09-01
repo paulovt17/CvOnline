@@ -1,0 +1,68 @@
+/*estilização global do site*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{ /*formatação do corpo do site*/
+    min-height: 100vh;
+    background-color: #0f0;
+    /* degradê: topo verde → base preta */
+    background: linear-gradient(to bottom, #16a34a 0%, #065f46 50%, #000000 100%);
+    /*fixa o fundo ao rolar */
+    background-attachment: fixed;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    gap: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo{ /*sombra para a logo se diferenciar*/
+    text-shadow: 1px 2px 2px black;
+}
+
+ul{ /*formatação do menu*/
+    display: flex;
+    list-style: none;
+    justify-content: space-around;   
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+
+}
+
+a:hover{ /*link aumenta ao passar mouse por cima*/
+    font-size: large;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.titulo{
+    color: yellow;
+    text-align: center;
+}

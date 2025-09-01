@@ -1,0 +1,30 @@
+/*estilizaçao da pagina de contato*/
+
+.contato{ /*ajeitando o formulario*/
+    width: 50em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.identificacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+textarea{
+    width: 50vw;
+    height: 10em;
+    border-radius: 10px;
+}
+
+.dados{
+    border-radius: 2px;
+    
+}
+section p{
+    align-self: center;
+}
